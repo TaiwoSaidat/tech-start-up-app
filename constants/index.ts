@@ -26,8 +26,8 @@ export const SERVICES = [
 ];
 
 export const CLIENTS = [
-  { icon: adtec },
   { icon: linear },
   { icon: sankira },
   { icon: zeplin },
+  { icon: adtec },
 ];
