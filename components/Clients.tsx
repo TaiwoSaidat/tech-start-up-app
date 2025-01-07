@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ClientCard from "./ButtonComponent/CardComponent/ServicesCard";
+import ClientCard from "./CardComponent/ServicesCard";
 import arrowLeftRight from "../public/arowLeftRight.png";
 import arrowRight from "../public/arrowRight.png";
 
@@ -15,7 +15,6 @@ const Clients = () => {
         <div className="w-full gap-6">
           <div className="">
             {/* <Image width={24} height={24} alt="" src={} /> */}
-            
           </div>
         </div>
       </section>

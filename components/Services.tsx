@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import React from "react";
 import { SERVICES } from "@/constants";
-import ServicesCard from "./ButtonComponent/CardComponent/ServicesCard";
+import ServicesCard from "./CardComponent/ServicesCard";
 
 const Services = () => {
   return (
@@ -19,7 +19,7 @@ const Services = () => {
         </div>
 
         {/* DOWN */}
-        <div className=" flex flex-col md:flex-row lg:flex-row py-6 gap-8 ">
+        <div className=" flex flex-col md:flex-row lg:flex-row py-6 gap-6 ">
           {SERVICES.map((service) => (
             <ServicesCard
               key={service.title}
@@ -28,7 +28,6 @@ const Services = () => {
               description={service.description}
             />
           ))}
-
         </div>
       </section>
     </>

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import arrowRight from '../../../public/arrowRight.png'
+import arrowRight from '../../public/arrowRight.png'
 import { ClientCardProps } from '@/types/homePage';
 
 const ServicesCard = ({ icon, title, description }: ClientCardProps) => {
