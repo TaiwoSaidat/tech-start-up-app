@@ -92,6 +92,14 @@ body {
     @apply text-[24px] font-[800] leading-[32px];
   }
 
+  .regular-32 {
+    @apply text-[32px] font-[800] leading-[32px];
+  }
+
+  .small-28 {
+    @apply text-[28px] font-[500] leading-[28px]
+  }
+
   .regular-48{
     @apply text-[48px] font-[800] leading-[56px];
   }
@@ -99,6 +107,8 @@ body {
   .regular-64 {
     @apply text-[64px] font-[800] leading-[72px];
   }
+
+  
 
   /* .regular-64 {
     @apply text-[64px] font-[400] leading-[120%];
@@ -167,6 +177,7 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   } */
+   
 
   /* Hero */
   .hero-map {

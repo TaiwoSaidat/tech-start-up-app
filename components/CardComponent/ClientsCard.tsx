@@ -1,15 +1,15 @@
-import Image from "next/image";
-import React from "react";
+import { ClientProps } from '@/types/homePage'
+import Image from 'next/image'
+import React from 'react'
 
-const ClientsCard = () => {
+const ClientsCard = ({icon}: ClientProps) => {
   return (
     <>
-      <div>
-        {/* <Image width={12} height={12} alt="logo" src={} /> */}
-        <p>sankira</p>
+      <div className=' '>
+        <Image width={96} height={96} alt="log" src={icon} />
       </div>
     </>
   );
-};
+}
 
-export default ClientsCard;
+export default ClientsCard

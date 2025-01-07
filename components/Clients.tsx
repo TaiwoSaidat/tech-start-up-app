@@ -1,21 +1,25 @@
-import Image from "next/image";
 import React from "react";
-import ClientCard from "./CardComponent/ServicesCard";
-import arrowLeftRight from "../public/arowLeftRight.png";
-import arrowRight from "../public/arrowRight.png";
+import { CLIENTS } from "@/constants";
+import ClientsCard from "./CardComponent/ClientsCard";
 
 const Clients = () => {
   return (
     <>
-      <section>
-        <div className="">
-          <span>Our Clients</span>
-          <h2>We’ve worked with hundreds of amazing people.</h2>
+      <section className="max-container padding-container text-masenaWhite bg-neutral-900 py-24 ">
+        <div className=" flex flex-col gap-10 m-12">
+          <span className="small-16 md:small-28 text-masenaWhite ">
+            Our Clients
+          </span>
+          <h2 className=" regular-32 md:regular-48 w-[60%] text-masenaWhite">
+            We’ve worked with hundreds of amazing people.
+          </h2>
         </div>
-        <div className="w-full gap-6">
-          <div className="">
-            {/* <Image width={24} height={24} alt="" src={} /> */}
-          </div>
+        
+        {/* justify-between  */}
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-10 mx-12 ">
+          {CLIENTS.map((client, index) => (
+            <ClientsCard icon={client.icon} />
+          ))}
         </div>
       </section>
     </>

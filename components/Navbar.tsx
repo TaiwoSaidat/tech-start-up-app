@@ -8,10 +8,13 @@ const Navbar = () => {
   return (
     <>
       
-      <div className=" max-container padding-container pt-12 pb-6 flexBetween  ">
+      <div className=" max-container padding-container pt-6 pb-3 md:pt-12 md:pb-6 flexBetween  ">
         <h3 className=" regular-24 ">Masena</h3>
         <div className=" flexBetween gap-4">
-          <Button />
+          <div className=" hidden md:block">
+           <Button  /> 
+          </div>
+          
           {/* width={10} height={10} */}
           <Image src={menu} alt="menu" />
         </div>
