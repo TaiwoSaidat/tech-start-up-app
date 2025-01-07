@@ -10,11 +10,11 @@ const Clients = () => {
           <span className="small-16 md:small-28 text-masenaWhite ">
             Our Clients
           </span>
-          <h2 className=" regular-32 md:regular-48 w-[60%] text-masenaWhite">
+          <h2 className=" regular-32 md:regular-48 md:w-[60%] lg:w-[60%] text-masenaWhite">
             We’ve worked with hundreds of amazing people.
           </h2>
         </div>
-        
+
         {/* justify-between  */}
         <div className=" grid grid-cols-2 md:grid-cols-4 gap-10 mx-12 ">
           {CLIENTS.map((client, index) => (
