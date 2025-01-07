@@ -29,7 +29,7 @@ const Services = () => {
             <ServicesCard
               key={service.title}
               title={service.title}
-              icon={service.icon}
+              // icon={service.icon}
               description={service.description}
             />
           ))}

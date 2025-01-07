@@ -5,7 +5,7 @@ import palette from "../public/palette.png";
 export const SERVICES = [
   {
     // icon: { arrowLeftRight },
-    icon: { arrowLeftRight },
+    // icon: { arrowLeftRight },
     title: "Software Development",
     description:
       "From MVP to scalable solutions, we build tailored software to help you succeed. Our team specializes in creating reliable, high-performance applications that meet your business needs.",
@@ -13,7 +13,7 @@ export const SERVICES = [
   },
 
   {
-    icon: { palette },
+    // icon: { palette },
     // icon: "/arrowLeftRight.png",
     title: "UI/UX Design",
     description:
