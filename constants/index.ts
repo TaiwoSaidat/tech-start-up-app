@@ -4,6 +4,9 @@ import adtec from "../public/adtec-logo.png";
 import linear from "../public/linear-logo.png";
 import sankira from "../public/sankira-logo.png";
 import zeplin from "../public/zeplin-logo.png";
+import linearIcon from '../public/linear-icon.png';
+import sankiraIcon from '../public/sankira-icon.png'
+import adtecIcon from '../public/adtec-icon.png';
 
 // SERVICES
 export const SERVICES = [
@@ -30,4 +33,31 @@ export const CLIENTS = [
   { icon: sankira },
   { icon: zeplin },
   { icon: adtec },
+];
+
+export const WORKS = [
+  {
+    icon: linearIcon,
+    subtitle: "Development Journey",
+    year: "2024",
+    title: "The only project management tool you need",
+    description:
+      "Linear is a project management tool that helps project managers, designers, and developers manage and seamlessly track their project.",
+  },
+  {
+    icon: sankiraIcon,
+    subtitle: "Development Journey",
+    year: "2023",
+    title: "Your Story, Your Community.",
+    description:
+      "Sankira is a social news platform for reporting, reading, and engaging verified news from your community. Allowing users to have first hand information.",
+  },
+  {
+    icon: adtecIcon,
+    subtitle: "Design Journey",
+    year: "2021",
+    title: "Your Brand Identity Partner",
+    description:
+      "Adtec Innovation Studios is a brand that helps other brand to define and communicate their brand identity to a specific target audience.",
+  },
 ];

@@ -17,3 +17,11 @@ export type HomePageProps = {
   title: string;
   description: string;
 }
+
+export type WorksProps = {
+  icon: string | StaticImageData;
+  subtitle: string;
+  year: string;
+  title: string;
+  description: string;
+};
