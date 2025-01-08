@@ -5,8 +5,8 @@ import ClientsCard from "./CardComponent/ClientsCard";
 const Clients = () => {
   return (
     <>
-      <section className="max-container padding-container text-masenaWhite bg-neutral-900 py-24 ">
-        <div className=" flex flex-col gap-10 m-12">
+      <section className="max-container padding-container text-masenaWhite bg-neutral-900 py-16 ">
+        <div className=" flex flex-col gap-10 my-12 ">
           <span className="small-16 md:small-28 text-masenaWhite ">
             Our Clients
           </span>
@@ -16,7 +16,7 @@ const Clients = () => {
         </div>
 
         {/* justify-between  */}
-        <div className=" grid grid-cols-2 md:grid-cols-4 gap-10 mx-12 ">
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-10  ">
           {CLIENTS.map((client, index) => (
             <ClientsCard icon={client.icon} />
           ))}
