@@ -16,6 +16,8 @@ export type HomePageProps = {
   span: string;
   title: string;
   description: string;
+  variant?: 'light' | 'dark';
+  withWidth?: boolean;
 }
 
 export type WorksProps = {
@@ -25,3 +27,8 @@ export type WorksProps = {
   title: string;
   description: string;
 };
+
+export type ButtonProps = {
+  text?: string;
+  variant?: 'light' | 'dark';
+}

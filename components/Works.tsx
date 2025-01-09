@@ -13,6 +13,8 @@ const Works = () => {
           span="Our Portfolio"
           title="Harnessing technology for a brighter future."
           description="We believe technology is the answer to the world’s greatest challenges. It’s also the cause, so we find ourselves in bit of a catch 22 situation."
+          variant="light"
+          withWidth = {true}
         />
         <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-6 gap-6">
           {WORKS.map((work, index) => (

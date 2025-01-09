@@ -12,6 +12,8 @@ const Services = () => {
           span="Our Services"
           title="We help you identify and explore new opportunities."
           description="As long as those opportunities involve giving us money to re-purpose old projects — we can come up with an endless number of those."
+          variant="light"
+          withWidth = {true}
         />
 
         {/* DOWN */}
