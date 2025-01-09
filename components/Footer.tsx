@@ -21,11 +21,11 @@ const Footer = () => {
             <div className=" w-[45%] gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
               <div className=" space-y-4">
                 <h2 className=" regular-16 text-neutral-900">Portfolio</h2>
-                <ul className="space-y-3">
+                <ul className="space-y-3 text-neutral-500">
                   <li>Linear</li>
                   <li>Sankira</li>
                   <li>Adtec</li>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 text-neutral-900">
                     <li>See all </li>
                     <Image alt="arrowSm" src={arrowSm} />
                   </div>
@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
               <div className=" space-y-4">
                 <h2 className=" regular-16 text-neutral-900">Company</h2>
-                <ul className="space-y-3">
+                <ul className="space-y-3 text-neutral-500">
                   <li>About</li>
                   <li>Process</li>
                   <li>Blog</li>
@@ -53,20 +53,20 @@ const Footer = () => {
 
               <form
                 action="submit"
-                className="border-2 border-neutral-200 flexBetween"
+                className="border-2 border-neutral-200 flexBetween rounded-lg"
               >
                 <input
                   type="text"
                   name="email"
                   placeholder="Enter your email address"
-                  className=" text-neutral-500 small-16"
+                  className=" text-neutral-500 small-16 mx-4"
                 />
                 <div className=" w-10 h-10 bg-masenaBlack flexCenter rounded">
                   <Image alt="arrow" src={arrowMid} />
                 </div>
               </form>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 ">
+              <div className="flex gap-6  ">
                 {SOCIALS.map((social, index) => (
                   <SocialButton icon={social.icon} />
                 ))}
