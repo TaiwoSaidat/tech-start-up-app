@@ -22,7 +22,7 @@ const ContactForm = () => {
     <>
       <form
         onSubmit={handleSubmit}
-        className="bg-neutral-900 text-white py-12 max-w-4xl space-y-6 small-16 "
+        className="bg-neutral-900 text-white py-12 space-y-6 small-16 "
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Name */}

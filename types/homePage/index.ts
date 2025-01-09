@@ -32,3 +32,17 @@ export type ButtonProps = {
   text?: string;
   variant?: 'light' | 'dark';
 }
+
+export type OfficesProps = {
+  title?: string;
+  description?: string;
+};
+
+export type FooterProps = {
+
+}
+
+export type SocialProps = {
+  icon?: string | StaticImageData;
+};
+

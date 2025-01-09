@@ -7,6 +7,10 @@ import zeplin from "../public/zeplin-logo.png";
 import linearIcon from '../public/linear-icon.png';
 import sankiraIcon from '../public/sankira-icon.png'
 import adtecIcon from '../public/adtec-icon.png';
+import ln from '../public/linkedin.png'
+import ig from "../public/instagram.png";
+import fb from "../public/facebook.png";
+import x from "../public/twitter.png";
 
 // SERVICES
 export const SERVICES = [
@@ -61,3 +65,32 @@ export const WORKS = [
       "Adtec Innovation Studios is a brand that helps other brand to define and communicate their brand identity to a specific target audience.",
   },
 ];
+
+export const OFFICES = [
+  {
+    title: "EU",
+    description: "123 Innovation Street, Tech Valley, 10456, Berlin, Germany",
+  },
+  {
+    title: "USA",
+    description: "456 Startup Blvd, Suite 202, San Francisco, CA 94105, USA",
+  },
+  {
+    title: "Nigeria",
+    description:
+      "789 Digital Road, Innovation Hub, Victoria Island, Lagos, Nigeria",
+  },
+];
+
+export const SOCIALS = [
+  { icon: ln },
+  { icon: ig },
+  { icon: fb },
+  { icon: x },
+];
+
+
+
+// export const FOOTER = [
+  
+// ]

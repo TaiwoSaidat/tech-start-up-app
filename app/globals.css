@@ -88,6 +88,10 @@ body {
     @apply text-[24px] font-[500] leading-[32px];
   }
    
+  .mid-24 {
+    @apply text-[24px] font-[700] leading-[32px];
+  }
+
   .regular-24 {
     @apply text-[24px] font-[800] leading-[32px];
   }

@@ -1,6 +1,8 @@
 import React from "react";
 import HomePageCard from "./CardComponent/HomePageCard";
 import ContactForm from "./FormComponent/ContactForm";
+import { OFFICES } from "@/constants";
+import OfficesComponent from "./CardComponent/OfficesComponent";
 
 const ContactUs = () => {
   return (
@@ -18,6 +20,19 @@ const ContactUs = () => {
           {/* form components */}
           <div className="form">
             <ContactForm />
+          </div>
+
+          <div className=" space-y-20">
+            <h3 className="mid-24 text-masenaWhite">Our Offices</h3>
+            <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 ">
+              {OFFICES.map((office, index) => (
+                <OfficesComponent
+                  // key={office.title}
+                  title={office.title}
+                  description={office.description}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>
