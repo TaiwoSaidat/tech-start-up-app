@@ -1,15 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import arrowMid from "../public/arrow-right-medium.png";
-import arrowSm from '../public/arrow-right-small.png'
-import ln from '../public/linkedin.png';
-import ig from '../public/instagram.png';
-import fb from '../public/facebook.png';
-import x from '../public/twitter.png';
-import { SOCIALS } from "@/constants";
+import arrowSm from "../public/arrow-right-small.png";
+import ln from "../public/linkedin.png";
+import ig from "../public/instagram.png";
+import fb from "../public/facebook.png";
+import x from "../public/twitter.png";
+import { COMPANIES, PORTFOLIOS, SOCIALS } from "@/constants";
 import SocialButton from "./ButtonComponent/SocialButton";
-
-
+import FooterComponent from "./CardComponent/FooterComponent";
 
 const Footer = () => {
   return (
@@ -33,16 +32,13 @@ const Footer = () => {
               </div>
               <div className=" space-y-4">
                 <h2 className=" regular-16 text-neutral-900">Company</h2>
-                <ul className="space-y-3 text-neutral-500">
-                  <li>About</li>
-                  <li>Process</li>
-                  <li>Blog</li>
-                  <li>Contact us</li>
-                </ul>
+                {COMPANIES.map((company, index) => (
+                  <FooterComponent title={company.title} />
+                ))}
               </div>
             </div>
             {/* sign up for our newsletter */}
-            <div className=" space-y-4  md:ml-auto lg:ml-auto ">
+            <div className=" w-[60%] space-y-4 md:px-2 lg:px-2 md:ml-auto lg:ml-auto ">
               <h4 className="regular-16 text-neutral-900">
                 Sign up for our newsletter
               </h4>
@@ -70,19 +66,6 @@ const Footer = () => {
                 {SOCIALS.map((social, index) => (
                   <SocialButton icon={social.icon} />
                 ))}
-
-                {/* <div className=" w-10 h-10 flexCenter bg-neutral-900 rounded-full  ">
-                  <Image alt="linkedin" src={ln} />
-                </div>
-                <div className=" w-10 h-10 flexCenter bg-neutral-900 rounded-full  ">
-                  <Image alt="linkedin" src={ig} />
-                </div>
-                <div className=" w-10 h-10 flexCenter bg-neutral-900 rounded-full  ">
-                  <Image alt="linkedin" src={fb} />
-                </div>
-                <div className=" w-10 h-10 flexCenter bg-neutral-900 rounded-full  ">
-                  <Image alt="linkedin" src={x} />
-                </div> */}
               </div>
             </div>
           </div>

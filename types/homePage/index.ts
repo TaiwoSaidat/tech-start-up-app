@@ -38,8 +38,13 @@ export type OfficesProps = {
   description?: string;
 };
 
-export type FooterProps = {
+export type PortfolioProps = {
+  title?: string;
+  icon?: string | StaticImageData;
+}
 
+export type CompanyProps = {
+  title?: string; 
 }
 
 export type SocialProps = {

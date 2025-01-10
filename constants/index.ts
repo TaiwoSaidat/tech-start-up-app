@@ -4,13 +4,14 @@ import adtec from "../public/adtec-logo.png";
 import linear from "../public/linear-logo.png";
 import sankira from "../public/sankira-logo.png";
 import zeplin from "../public/zeplin-logo.png";
-import linearIcon from '../public/linear-icon.png';
-import sankiraIcon from '../public/sankira-icon.png'
-import adtecIcon from '../public/adtec-icon.png';
-import ln from '../public/linkedin.png'
+import linearIcon from "../public/linear-icon.png";
+import sankiraIcon from "../public/sankira-icon.png";
+import adtecIcon from "../public/adtec-icon.png";
+import ln from "../public/linkedin.png";
 import ig from "../public/instagram.png";
 import fb from "../public/facebook.png";
 import x from "../public/twitter.png";
+import arrowSm from '../public/arrow-right-small.png'
 
 // SERVICES
 export const SERVICES = [
@@ -82,15 +83,21 @@ export const OFFICES = [
   },
 ];
 
-export const SOCIALS = [
-  { icon: ln },
-  { icon: ig },
-  { icon: fb },
-  { icon: x },
+export const PORTFOLIOS = [
+  { title: "Linear" },
+  { title: "Sankira" },
+  { title: "Adtec" },
+  {
+    title: "See all",
+    icon: arrowSm
+  },
 ];
 
+export const COMPANIES = [
+  { title: "About" },
+  { title: "Process" },
+  { title: "Blog" },
+  { title: "Contact us" },
+];
 
-
-// export const FOOTER = [
-  
-// ]
+export const SOCIALS = [{ icon: ln }, { icon: ig }, { icon: fb }, { icon: x }];
