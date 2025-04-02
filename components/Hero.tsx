@@ -10,12 +10,12 @@ const Hero = () => {
         {/* LEFT */}
         <div className=" flex flex-col gap-4 md:w-[60%] lg:[60%]">
           <h2 className=" regular-32 flex-wrap md:regular-64">
-            Bringing Your Ideas to Life with Quality Software Solutions
+            Transforming Your Vision into Exceptional Software Solutions{" "}
           </h2>
           <p className=" small-16 md:small-24 text-neutral-500">
-            Masena combines expertise in software development and design to help
-            startups and small businesses launch successful products—on time,
-            every time.
+            We leverage our expertise in software development and design to
+            help startups and small businesses bring successful products to
+            market—efficiently and on schedule.
           </p>
 
           <button className=" bg-neutral-900 rounded-full h-10 w-10 md:h-14 md:w-14 flexCenter">

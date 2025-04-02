@@ -8,7 +8,7 @@ import WorksComponent from "./CardComponent/WorksComponent";
 const Works = () => {
   return (
     <>
-      <section className="max-container padding-container bg-masenaWhite py-6 ">
+      <section className="max-container padding-container py-6 ">
         <HomePageCard
           span="Our Portfolio"
           title="Harnessing technology for a brighter future."

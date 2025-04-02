@@ -5,7 +5,7 @@ import ClientsCard from "./CardComponent/ClientsCard";
 const Clients = () => {
   return (
     <>
-      <section className="max-container padding-container text-masenaWhite bg-neutral-900 py-16 ">
+      <section className="max-container padding-container text-masenaWhite bg-neutral-900 rounded-xl py-16 ">
         <div className=" flex flex-col gap-10 my-12 ">
           <span className="small-16 md:small-28 text-masenaWhite ">
             Our Clients

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Masena App",
+  title: "Tech Start Up App",
   description: "Bringing Your Ideas to Life with Quality Software Solutions",
 };
 
@@ -15,8 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* bg-backgroundLight */}
-      <body className="  relative overflow-hidden font-layout bg-masenaWhite text-gray-900">
+      <body className="  relative overflow-hidden font-layout bg-neutral-300 text-gray-900">
         <Navbar />
         {children}
         <Footer />

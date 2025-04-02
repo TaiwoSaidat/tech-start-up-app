@@ -5,10 +5,10 @@ import adtecBlack from '../public/adtec-logo-black.png'
 const Testimonial = () => {
   return (
     <>
-      <section className="max-container padding-container bg-neutral-50 py-6 ">
+      <section className="max-container padding-container py-6 ">
         <div className="flex flex-col gap-8 p-12">
           <h3 className=" regular-24 text-neutral-900 flexCenter ">
-            "Working with Masena has been a game-changer for our startup. They
+            "Working with Tech Start Up has been a game-changer for our startup. They
             quickly understood our vision and delivered a polished MVP that
             exceeded our expectations—on time and well within budget. The team’s
             professionalism, combined with their technical expertise, made the

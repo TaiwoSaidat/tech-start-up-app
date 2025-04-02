@@ -7,10 +7,10 @@ import HomePageCard from "./CardComponent/HomePageCard";
 const Services = () => {
   return (
     <>
-      <section className="max-container padding-container bg-neutral-50 py-6 ">
+      <section className="max-container padding-container  py-6 ">
         <HomePageCard
           span="Our Services"
-          title="We help you identify and explore new opportunities."
+          title="We assist you in discovering and seizing new opportunities."
           description="As long as those opportunities involve giving us money to re-purpose old projects — we can come up with an endless number of those."
           variant="light"
           withWidth = {true}

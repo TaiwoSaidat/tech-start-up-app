@@ -7,7 +7,7 @@ import OfficesComponent from "./CardComponent/OfficesComponent";
 const ContactUs = () => {
   return (
     <>
-      <section id="ContactUs" className=" max-container padding-container bg-neutral-50 py-6  ">
+      <section id="ContactUs" className=" max-container padding-container py-6  ">
         <div className=" bg-neutral-900  border-1 rounded-xl p-12">
           <HomePageCard
             span="Contact Us"

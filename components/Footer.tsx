@@ -2,18 +2,16 @@ import Image from "next/image";
 import React from "react";
 import arrowMid from "../public/arrow-right-medium.png";
 import arrowSm from "../public/arrow-right-small.png";
-import ln from "../public/linkedin.png";
-import ig from "../public/instagram.png";
-import fb from "../public/facebook.png";
-import x from "../public/twitter.png";
+import logo from "../public/TJP-512x512.png";
 import { COMPANIES, PORTFOLIOS, SOCIALS } from "@/constants";
 import SocialButton from "./ButtonComponent/SocialButton";
 import FooterComponent from "./CardComponent/FooterComponent";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <>
-      <section className="max-container padding-container bg-masenaWhite py-6 ">
+      <section className="max-container padding-container py-6 ">
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4  ">
             {/* portfolio and compnay */}
@@ -49,15 +47,15 @@ const Footer = () => {
 
               <form
                 action="submit"
-                className="border-2 border-neutral-200 flexBetween rounded-lg"
+                className="border-2 border-neutral-200 bg-masenaWhite flexBetween rounded-lg"
               >
                 <input
                   type="text"
                   name="email"
                   placeholder="Enter your email address"
-                  className=" text-neutral-500 small-16 mx-4"
+                  className=" text-neutral-500 border border-masenaWhite rounded-lg small-16 mx-4 w-[100%]"
                 />
-                <div className=" w-10 h-10 bg-masenaBlack flexCenter rounded">
+                <div className=" w-14 h-10 bg-masenaBlack flexCenter rounded">
                   <Image alt="arrow" src={arrowMid} />
                 </div>
               </form>
@@ -73,8 +71,15 @@ const Footer = () => {
           <hr className=" bg-neutral-200 my-8" />
 
           <div className=" py-6 my-8 flexBetween">
-            <h3 className=" text-neutral-900 regular-24">Masena</h3>
-            <p className=" text-neutral-500 small-16"> © Masena. 2024 </p>
+            {/* <h3 className=" text-neutral-900 regular-24">Masena</h3> */}
+            <Link href="/">
+              <Image src={logo} alt="logo" width={48} height={48} />
+            </Link>
+            <Link href="https://github.com/TaiwoSaidat/tech-start-up-app">
+              <p className=" text-neutral-500 small-16">
+                ©Tech Start Up. 2024{" "}
+              </p>
+            </Link>
           </div>
         </div>
       </section>
